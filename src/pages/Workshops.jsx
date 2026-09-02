@@ -1,0 +1,1 @@
+export default function Workshops() { return <h1>Workshops Page</h1> }
