@@ -1129,3 +1129,684 @@ a {
     gap: 10px;
   }
 }
+
+
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+
+/* ==========================================
+   ABOUT HERO
+========================================== */
+
+.about-hero {
+  padding: 110px 0;
+
+  background:
+    radial-gradient(
+      circle at 85% 20%,
+      #dbeafe,
+      transparent 30%
+    ),
+    #f8fafc;
+}
+
+.about-hero-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 0.85fr;
+
+  gap: 90px;
+
+  align-items: center;
+}
+
+.about-hero h1 {
+  font-size: clamp(55px, 6vw, 82px);
+
+  line-height: 0.96;
+
+  letter-spacing: -5px;
+
+  margin-bottom: 30px;
+}
+
+.about-hero h1 span {
+  color: #2563eb;
+}
+
+.about-hero-text {
+  max-width: 650px;
+
+  color: #667085;
+
+  font-size: 19px;
+
+  line-height: 1.65;
+}
+
+
+/* ==========================================
+   PHOTO PLACEHOLDER
+========================================== */
+
+.about-hero-photo {
+  height: 470px;
+
+  border-radius: 35px;
+
+  overflow: hidden;
+
+  background: #eaf2ff;
+
+  border: 1px solid #dbeafe;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.photo-placeholder {
+  width: 85%;
+  height: 85%;
+
+  border: 2px dashed #93c5fd;
+
+  border-radius: 25px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  color: #2563eb;
+}
+
+.photo-placeholder span {
+  font-size: 55px;
+
+  margin-bottom: 15px;
+}
+
+.photo-placeholder p {
+  font-size: 20px;
+
+  font-weight: 900;
+}
+
+.photo-placeholder small {
+  margin-top: 5px;
+
+  color: #667085;
+}
+
+
+/* ==========================================
+   STORY
+========================================== */
+
+.about-story {
+  padding: 110px 0;
+
+  background: white;
+}
+
+.story-grid {
+  display: grid;
+
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 100px;
+}
+
+.story-heading h2 {
+  font-size: clamp(42px, 5vw, 65px);
+
+  line-height: 1;
+
+  letter-spacing: -4px;
+}
+
+.story-heading h2 span {
+  color: #2563eb;
+}
+
+.story-text {
+  color: #667085;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+}
+
+.story-text p {
+  margin-bottom: 22px;
+}
+
+.story-text .large-copy {
+  color: #101828;
+
+  font-size: 27px;
+
+  line-height: 1.35;
+
+  font-weight: 800;
+}
+
+
+/* ==========================================
+   MISSION
+========================================== */
+
+.about-mission {
+  padding: 110px 0;
+
+  background: #f8fafc;
+}
+
+.mission-intro {
+  max-width: 800px;
+
+  margin-bottom: 60px;
+}
+
+.mission-intro h2 {
+  font-size: clamp(42px, 5vw, 65px);
+
+  line-height: 1;
+
+  letter-spacing: -4px;
+
+  margin-bottom: 15px;
+}
+
+.mission-intro h2 span {
+  color: #2563eb;
+}
+
+.mission-intro > p:last-child {
+  color: #667085;
+
+  font-size: 19px;
+}
+
+.mission-cards {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 18px;
+}
+
+.about-value-card {
+  padding: 30px;
+
+  background: white;
+
+  border: 1px solid #eaecf0;
+
+  border-radius: 24px;
+
+  min-height: 280px;
+}
+
+.about-value-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #eff6ff;
+
+  border-radius: 16px;
+
+  font-size: 25px;
+
+  margin-bottom: 22px;
+}
+
+.about-value-card h3 {
+  font-size: 21px;
+
+  margin-bottom: 12px;
+}
+
+.about-value-card p {
+  color: #667085;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+
+/* ==========================================
+   TEAM
+========================================== */
+
+.team-section {
+  padding: 115px 0;
+
+  background: white;
+}
+
+.team-group {
+  margin-top: 75px;
+}
+
+.team-group-title {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  margin-bottom: 25px;
+
+  border-bottom: 1px solid #eaecf0;
+
+  padding-bottom: 15px;
+}
+
+.team-group-title span {
+  color: #2563eb;
+
+  font-size: 12px;
+
+  font-weight: 900;
+}
+
+.team-group-title h3 {
+  font-size: 18px;
+}
+
+.team-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 25px;
+}
+
+.team-card {
+  border: 1px solid #eaecf0;
+
+  border-radius: 27px;
+
+  overflow: hidden;
+
+  background: white;
+
+  transition: 0.25s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 20px 50px rgba(16, 24, 40, 0.08);
+}
+
+.team-photo {
+  height: 330px;
+
+  background: #eaf2ff;
+
+  overflow: hidden;
+}
+
+.team-photo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.team-info {
+  padding: 28px;
+}
+
+.team-role {
+  color: #2563eb;
+
+  font-size: 10px;
+
+  font-weight: 900;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 7px;
+}
+
+.team-info h3 {
+  font-size: 27px;
+
+  margin-bottom: 10px;
+}
+
+.team-info > p:last-child {
+  color: #667085;
+
+  line-height: 1.6;
+
+  font-size: 15px;
+}
+
+
+/* ==========================================
+   ADVISOR
+========================================== */
+
+.advisor-card {
+  display: grid;
+
+  grid-template-columns: 300px 1fr;
+
+  border: 1px solid #eaecf0;
+
+  border-radius: 27px;
+
+  overflow: hidden;
+
+  max-width: 850px;
+}
+
+.advisor-photo {
+  height: 300px;
+
+  background: #eaf2ff;
+}
+
+.advisor-photo img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.advisor-info {
+  padding: 45px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.advisor-info h3 {
+  font-size: 30px;
+
+  margin-bottom: 12px;
+}
+
+.advisor-info > p:last-child {
+  color: #667085;
+
+  line-height: 1.65;
+
+  max-width: 500px;
+}
+
+
+/* ==========================================
+   BELIEF
+========================================== */
+
+.belief-section {
+  padding: 110px 0;
+
+  background: #101828;
+
+  color: white;
+}
+
+.belief-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 100px;
+
+  align-items: center;
+}
+
+.belief-grid h2 {
+  font-size: clamp(45px, 5vw, 65px);
+
+  line-height: 1;
+
+  letter-spacing: -4px;
+}
+
+.belief-grid h2 span {
+  color: #60a5fa;
+}
+
+.belief-text {
+  color: #98a2b3;
+
+  font-size: 18px;
+
+  line-height: 1.7;
+}
+
+.belief-text p {
+  margin-bottom: 20px;
+}
+
+.light-label {
+  color: #60a5fa;
+}
+
+
+/* ==========================================
+   FUTURE
+========================================== */
+
+.future-section {
+  padding: 110px 0;
+
+  background: #f8fafc;
+}
+
+.future-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 90px;
+}
+
+.future-grid h2 {
+  font-size: clamp(43px, 5vw, 65px);
+
+  line-height: 1;
+
+  letter-spacing: -4px;
+}
+
+.future-grid h2 span {
+  color: #2563eb;
+}
+
+.future-copy {
+  color: #667085;
+
+  font-size: 18px;
+
+  line-height: 1.65;
+
+  margin-bottom: 30px;
+}
+
+.future-list {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.future-list div {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #eaecf0;
+}
+
+.future-list span {
+  color: #2563eb;
+
+  font-weight: 900;
+}
+
+.future-list p {
+  font-weight: 700;
+
+  font-size: 14px;
+}
+
+
+/* ==========================================
+   ABOUT CTA
+========================================== */
+
+.about-cta {
+  padding: 110px 0;
+
+  background: #eff6ff;
+}
+
+.about-cta-box {
+  width: min(950px, 90%);
+
+  margin: auto;
+
+  padding: 80px 30px;
+
+  background: white;
+
+  border: 1px solid #dbeafe;
+
+  border-radius: 35px;
+
+  text-align: center;
+}
+
+.about-cta-box h2 {
+  font-size: clamp(42px, 5vw, 62px);
+
+  line-height: 1;
+
+  letter-spacing: -4px;
+
+  margin-bottom: 20px;
+}
+
+.about-cta-box h2 span {
+  color: #2563eb;
+}
+
+.about-cta-box > p:not(.section-label) {
+  max-width: 650px;
+
+  margin: auto;
+
+  color: #667085;
+
+  font-size: 17px;
+
+  line-height: 1.6;
+}
+
+.about-cta-box .cta-buttons {
+  margin-top: 30px;
+}
+
+
+/* ==========================================
+   ABOUT RESPONSIVE
+========================================== */
+
+@media (max-width: 950px) {
+
+  .about-hero-grid,
+  .story-grid,
+  .belief-grid,
+  .future-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-hero-photo {
+    max-width: 600px;
+  }
+}
+
+
+@media (max-width: 650px) {
+
+  .about-hero,
+  .about-story,
+  .about-mission,
+  .team-section,
+  .belief-section,
+  .future-section,
+  .about-cta {
+    padding: 75px 0;
+  }
+
+  .about-hero h1 {
+    font-size: 50px;
+
+    letter-spacing: -3px;
+  }
+
+  .story-heading h2,
+  .mission-intro h2,
+  .belief-grid h2,
+  .future-grid h2 {
+    letter-spacing: -3px;
+  }
+
+  .mission-cards,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .advisor-card {
+    grid-template-columns: 1fr;
+  }
+
+  .advisor-photo {
+    height: 300px;
+  }
+
+  .team-photo {
+    height: 300px;
+  }
+}
+
+
