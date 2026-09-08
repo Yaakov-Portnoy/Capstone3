@@ -9,9 +9,6 @@ import Contact from './pages/Contact'
 function App() {
     return (
         <BrowserRouter>
-            <nav>
-                <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/workshops">Workshops</Link> | <Link to="/videos">Videos</Link> | <Link to="/get-involved">Get Involved</Link> | <Link to="/contact">Contact</Link>
-            </nav>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
