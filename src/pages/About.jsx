@@ -63,7 +63,6 @@ function About() {
           </div>
 
 
-          {/* PHOTO PLACEHOLDER */}
           <div className="about-hero-photo">
 
             <div className="photo-placeholder">
@@ -176,7 +175,9 @@ function About() {
 
             <div className="about-value-card">
               <div className="about-value-icon">🔧</div>
+
               <h3>Hands-On</h3>
+
               <p>
                 Students learn by building real projects,
                 experimenting with ideas, and seeing concepts
@@ -187,7 +188,9 @@ function About() {
 
             <div className="about-value-card">
               <div className="about-value-icon">💡</div>
+
               <h3>Curiosity</h3>
+
               <p>
                 We encourage students to ask questions,
                 explore possibilities, and discover how
@@ -198,7 +201,9 @@ function About() {
 
             <div className="about-value-card">
               <div className="about-value-icon">🧠</div>
+
               <h3>Problem Solving</h3>
+
               <p>
                 Engineering is about trying, failing,
                 improving, and finding creative solutions
@@ -209,7 +214,9 @@ function About() {
 
             <div className="about-value-card">
               <div className="about-value-icon">🌎</div>
+
               <h3>Access</h3>
+
               <p>
                 We want more children to have meaningful
                 opportunities to explore STEM regardless
@@ -225,7 +232,7 @@ function About() {
 
 
       {/* =========================
-          TEAM
+          STUDENT LEADERSHIP
       ========================== */}
       <section className="team-section">
 
@@ -234,29 +241,30 @@ function About() {
           <div className="center-heading">
 
             <p className="section-label">
-              THE TEAM
+              STUDENT LEADERSHIP
             </p>
 
             <h2>
-              Meet the people
+              Meet the students
               <br />
               behind Techids.
             </h2>
 
             <p>
-              Techids is built by students who want to
-              make STEM more accessible to the next generation.
+              Techids is student-led by high school students
+              who are building programs, projects, technology,
+              and opportunities for the next generation.
             </p>
 
           </div>
 
 
-          {/* FOUNDERS */}
+          {/* STUDENT LEADERS */}
           <div className="team-group">
 
             <div className="team-group-title">
               <span>01</span>
-              <h3>Founders</h3>
+              <h3>Student Leaders &amp; Co-Founders</h3>
             </div>
 
 
@@ -294,14 +302,14 @@ function About() {
               </div>
 
 
-              {/* ZACK */}
+              {/* ASHER */}
               <div className="team-card founder-card">
 
                 <div className="team-photo">
 
                   <img
-                    src="/images/team/zack.jpg"
-                    alt="Zack Hoisman"
+                    src="/images/team/asher.jpg"
+                    alt="Asher Heusman"
                   />
 
                 </div>
@@ -312,7 +320,7 @@ function About() {
                     CO-FOUNDER
                   </p>
 
-                  <h3>Zack Hoisman</h3>
+                  <h3>Asher Heusman</h3>
 
                   <p>
                     Co-founder of Techids and a high school
@@ -330,72 +338,45 @@ function About() {
           </div>
 
 
-          {/* DEVELOPERS */}
+          {/* STUDENT-LED WORK */}
           <div className="team-group">
 
             <div className="team-group-title">
               <span>02</span>
-              <h3>Development Team</h3>
+              <h3>Student-Led Work</h3>
             </div>
 
 
             <div className="team-grid">
 
-              {/* TREVOR */}
               <div className="team-card">
 
                 <div className="team-photo">
 
-                  <img
-                    src="/images/team/trevor.jpg"
-                    alt="Trevor Hull"
-                  />
+                  <div className="photo-placeholder">
+                    <span>🚀</span>
+                    <p>Student-Led</p>
+                    <small>
+                      Building Techids from the ground up
+                    </small>
+                  </div>
 
                 </div>
 
                 <div className="team-info">
 
                   <p className="team-role">
-                    DEVELOPER
+                    STUDENT LEADERSHIP
                   </p>
 
-                  <h3>Trevor Hull</h3>
+                  <h3>Building Techids</h3>
 
                   <p>
-                    Part of the Techids development team,
-                    helping build the technology and digital
-                    experiences behind the organization.
-                  </p>
-
-                </div>
-
-              </div>
-
-
-              {/* ALBERTO */}
-              <div className="team-card">
-
-                <div className="team-photo">
-
-                  <img
-                    src="/images/team/alberto.jpg"
-                    alt="Alberto Dichi"
-                  />
-
-                </div>
-
-                <div className="team-info">
-
-                  <p className="team-role">
-                    DEVELOPER
-                  </p>
-
-                  <h3>Alberto Dichi</h3>
-
-                  <p>
-                    Part of the Techids development team,
-                    contributing to the organization's
-                    website and technology.
+                    Jacob and Asher are actively involved in
+                    developing Techids programs, projects,
+                    technology, educational resources,
+                    outreach, partnerships, and the future
+                    direction of the organization.
                   </p>
 
                 </div>
@@ -440,6 +421,56 @@ function About() {
                   providing guidance and perspective as
                   the organization grows its programs,
                   partnerships, and impact.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          {/* ADULT BOARD */}
+          <div className="team-group">
+
+            <div className="team-group-title">
+              <span>04</span>
+              <h3>Adult Board of Directors</h3>
+            </div>
+
+
+            <div className="advisor-card">
+
+              <div className="advisor-photo">
+                <div className="photo-placeholder">
+                  <span>🏛️</span>
+                  <p>Adult Governance</p>
+                  <small>
+                    Legal oversight and supervision
+                  </small>
+                </div>
+              </div>
+
+              <div className="advisor-info">
+
+                <p className="team-role">
+                  BOARD OF DIRECTORS
+                </p>
+
+                <h3>Adult Governance</h3>
+
+                <p>
+                  Techids, Inc. is supported by an adult
+                  Board of Directors that provides legal
+                  governance, oversight, supervision, and
+                  guidance for the organization.
+                </p>
+
+                <p>
+                  Techids remains student-led, with Jacob
+                  and Asher actively involved in developing
+                  and carrying out programs, projects,
+                  outreach, and other initiatives.
                 </p>
 
               </div>
